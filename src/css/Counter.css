@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.counter{
+    width: 300px;
+    height: 300px;
+    background: #243636;
+    border-radius: 10px;
+    margin: 60px auto 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.counter h3{
+    color: #ff0;
+    font-size: 90px;
+    text-align: center;
+}
+.counter-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.counter-btn button{
+    margin: 0;
+    background: blue;
+    color: #fff;
+    border-radius: 10px;
+    width: 125px;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.counter-btn button:nth-child(3){
+    width: 100%;
+}
+.counter p{
+    color: #fff;
+    margin-top: 30px;
+}
